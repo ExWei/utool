@@ -4,7 +4,7 @@
   "description": "Utilization tool for any javascript developer",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests"
   },
   "repository": {
     "type": "git",
