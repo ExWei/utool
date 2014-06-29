@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/ExWei/utool",
   "devDependencies": {
-    "mocha": "^1.20.1"
+    "mocha": "^1.20.1",
+    "should": "^4.0.4"
   }
 }
