@@ -1,6 +1,6 @@
 {
   "name": "utool",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Utilization tool for any javascript developer",
   "main": "./lib/index.js",
   "scripts": {
