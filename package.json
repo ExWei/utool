@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/ExWei/utool/issues"
   },
-  "homepage": "https://github.com/ExWei/utool"
+  "homepage": "https://github.com/ExWei/utool",
+  "devDependencies": {
+    "mocha": "^1.20.1"
+  }
 }
