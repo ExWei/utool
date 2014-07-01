@@ -1,7 +1,7 @@
 {
   "name": "utool",
   "version": "0.0.1",
-  "description": "Utilization tool for any javascript developer",
+  "description": "Swiss knife for any JavaScript developer",
   "main": "./lib/index.js",
   "scripts": {
     "test": "mocha tests"
