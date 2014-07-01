@@ -43,4 +43,11 @@ describe("Strings", function () {
             u.reverse("code").should.be.equal("edoc");
         });
     });
+    describe("#removeMultipleSpaces()", function () {
+        it("Should return string without multiple spaces", function () {
+            u.removeMultipleSpaces("Test").should.be.equal("Test");
+            u.removeMultipleSpaces("Test and test").should.be.equal("Test and test");
+            u.removeMultipleSpaces("test spaces  between            words").should.be.equal("test spaces between words");
+        });
+    });
 });
