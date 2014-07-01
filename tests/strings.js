@@ -37,4 +37,10 @@ describe("Strings", function () {
             u.lowercase("already").should.be.equal("already");
         });
     });
+    describe("#reverse()", function () {
+        it("Should return reversed string", function () {
+            u.reverse("Test").should.be.equal("tesT");
+            u.reverse("code").should.be.equal("edoc");
+        });
+    });
 });
