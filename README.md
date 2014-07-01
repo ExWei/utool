@@ -46,3 +46,21 @@ Represents a function for strings lower-case
 
 **source**:  *string*,  - String for lower-case
 
+reverse(source)
+---------------
+Represents a function for strings reverse
+
+
+**Parameters**
+
+**source**:  *string*,  - String for reverse
+
+removeMultipleSpaces(source)
+----------------------------
+Represents a function for deletion multiple whitespaces from string
+
+
+**Parameters**
+
+**source**:  *string*,  - String for deletion multiple spaces
+
