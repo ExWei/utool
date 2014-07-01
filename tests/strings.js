@@ -39,7 +39,7 @@ describe("Strings", function () {
     });
     describe("#reverse()", function () {
         it("Should return reversed string", function () {
-            u.reverse("Test").should.be.equal("tesT");
+            u.reverse("Test").should.be.equal("tseT");
             u.reverse("code").should.be.equal("edoc");
         });
     });
