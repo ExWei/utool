@@ -17,10 +17,10 @@ describe("Arrays", function () {
             u.last([]).should.be.equal(undefined);
         });
         it("Should return reversed array", function () {
-            u.last([1, 2, 3]).should.be.eql([3, 2, 1]);
-            u.last(["a", "b", "c"]).should.be.eql(["c", "b", "a"]);
-            u.last(["d"]).should.be.eql(["d"]);
-            u.last([]).should.be.equal([]);
+            u.reverse([1, 2, 3]).should.be.eql([3, 2, 1]);
+            u.reverse(["a", "b", "c"]).should.be.eql(["c", "b", "a"]);
+            u.reverse(["d"]).should.be.eql(["d"]);
+            u.reverse([]).should.be.equal([]);
         });
     });
 });
