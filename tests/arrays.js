@@ -22,5 +22,12 @@ describe("Arrays", function () {
             u.reverse(["d"]).should.be.eql(["d"]);
             u.reverse([]).should.be.equal([]);
         });
+        it("Should rest of array array", function () {
+            u.rest([1, 2, 3]).should.be.eql([2, 3]);
+            u.rest([1, 2, 3], 2).should.be.eql([3]);
+            u.rest(["a", "b", "c"]).should.be.eql(["b", "c"]);
+            u.rest(["d"]).should.be.eql([]);
+            u.rest([]).should.be.eql([]);
+        });
     });
 });
