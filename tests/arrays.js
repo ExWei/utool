@@ -24,7 +24,7 @@ describe("Arrays", function () {
             u.reverse([1, 2, 3]).should.be.eql([3, 2, 1]);
             u.reverse(["a", "b", "c"]).should.be.eql(["c", "b", "a"]);
             u.reverse(["d"]).should.be.eql(["d"]);
-            u.reverse([]).should.be.equal([]);
+            u.reverse([]).should.be.eql([]);
         });
     });
     describe("#rest()", function () {
