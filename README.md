@@ -48,12 +48,12 @@ Represents a function for strings lower-case
 
 reverse(source)
 ---------------
-Represents a function for strings reverse
+Represents a function for strings/arrays reverse
 
 
 **Parameters**
 
-**source**:  *string*,  - String for reverse
+**source**,  - String/Array for reverse
 
 removeMultipleSpaces(source)
 ----------------------------
@@ -63,4 +63,33 @@ Represents a function for deletion multiple whitespaces from string
 **Parameters**
 
 **source**:  *string*,  - String for deletion multiple spaces
+
+first(source)
+-------------
+Get first element in array
+
+
+**Parameters**
+
+**source**:  *Array*,  - Array
+
+last(source)
+------------
+Get last element in array
+
+
+**Parameters**
+
+**source**:  *Array*,  - Array
+
+rest(source, from)
+------------------
+Get rest of array
+
+
+**Parameters**
+
+**source**:  *Array*,  - Array
+
+**from**:  *number*,  - Number of elements for omit
 
