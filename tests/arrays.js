@@ -5,18 +5,18 @@ var u = require("../lib/index.js");
 describe("Arrays", function () {
     describe("#first()", function () {
         it("Should return first element in array", function () {
-            u.first([1, 2, 3]).should.be.equal(1);
-            u.first(["a", "b", "c"]).should.be.equal("a");
-            u.first(["d"]).should.be.equal("d");
-            u.first([]).should.be.equal(undefined);
+            u.first([1, 2, 3]).should.be.eql(1);
+            u.first(["a", "b", "c"]).should.be.eql("a");
+            u.first(["d"]).should.be.eql("d");
+            u.first([]).should.be.eql("");
         });
     });
     describe("#last()", function () {
         it("Should return last element in array", function () {
-            u.last([1, 2, 3]).should.be.equal(3);
+            u.last([1, 2, 3]).should.be.eql(3);
             u.last(["a", "b", "c"]).should.be.equal("c");
             u.last(["d"]).should.be.equal("d");
-            u.last([]).should.be.equal(undefined);
+            u.last([]).should.be.eql("");
         });
     });
     describe("#reverse()", function () {
